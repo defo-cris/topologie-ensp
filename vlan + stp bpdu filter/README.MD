@@ -9,4 +9,8 @@ sono state impostare 2 vlan (--> 2 e 3) per fare in modo che PC1 e PC3 siano dir
 
 il collegamento tra i 2 switch e' di tipo trunk, quello con i pc di tipo access.
 
-e' stata impostata la bpdu-filter per evitare che venissero inoltrate BPDU a gli host. 
+e' stata impostata la bpdu-filter per evitare che venissero inoltrate BPDU a gli host, su tutti gli host tranne che su eth1 di lsw1.  
+
+
+
+gli switch hanno rstp abilitato.
