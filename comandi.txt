@@ -1,0 +1,91 @@
+ipv6
+ospfv3 1
+router-id 2.2.2.2
+import-route direct
+q
+
+
+int gig 0/0/0
+ipv6 enable
+ipv6 address auto link
+ospfv3 1 area 0
+q
+
+
+
+int gig 0/0/2
+ipv6 enable
+ipv6 address 2001:DB8:2::1 48 
+q
+
+
+int gig 0/0/1
+undo ipv6 address fc01::1/64
+ipv6 address 2001:DB8:1::1 48 
+ipv6 nd ra halt 
+q
+
+
+
+sys
+user-interface console 0
+idle-timeout 999 0
+q
+
+
+ipv6
+interface gig 0/0/1
+ipv6 enable
+ipv6 address 2001:DB8:1::1 48
+ipv6 address 2001:DB8:2::1 48
+ipv6 address 2001:DB8:3::1 48
+q
+
+
+ipv6
+interface gig 0/0/2
+ipv6 enable
+ipv6 address 2001:DB8:2::1 48
+q
+
+
+int gig 0/0/0
+ipv6 enable
+ipv6 address 2001:DB8:3::2 48
+q
+
+
+
+
+ipv6
+interface gig 0/0/1
+ipv6 enable
+ipv6 address 2001:DB8:1::1 48
+q
+
+
+
+
+dhcp enable
+interface gig 0/0/1
+ip address 192.168.0.129 26
+dhcp select interface
+q
+
+
+ospf 1 router-id 3.3.3.3
+q
+interface gig 0/0/0
+ospf enable 1 area 0
+q
+
+
+
+interface gig 0/0/0
+ip address 192.168.0.198 30
+ospf enable 1 area 0
+q
+
+
+
+
