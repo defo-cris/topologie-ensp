@@ -81,9 +81,9 @@ q
 
 
 
-interface gig 0/0/0
-ip address 192.168.0.198 30
-ospf enable 1 area 0
+interface gig 0/0/1
+ip address 192.168.0.1 24
+dhcp select interface
 q
 
 
