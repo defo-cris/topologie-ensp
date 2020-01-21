@@ -65,10 +65,9 @@ q
 
 
 
-
 dhcp enable
 interface gig 0/0/1
-ip address 192.168.0.129 26
+ip address 192.168.0.65 27
 dhcp select interface
 q
 
@@ -81,9 +80,9 @@ q
 
 
 
-interface gig 0/0/1
-ip address 192.168.0.1 24
-dhcp select interface
+interface gig 0/0/0
+ip address 192.168.0.178 30
+isis enable 20
 q
 
 
