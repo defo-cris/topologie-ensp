@@ -26,12 +26,16 @@ ipv6 nd ra halt
 q
 
 
+---------------------------------->
+			basic config			
+-----------------------------------
 
 sys
 user-interface console 0
 idle-timeout 999 0
 q
 
+<----------------------------------
 
 ipv6
 interface gig 0/0/1
@@ -64,13 +68,17 @@ ipv6 address 2001:DB8:1::1 48
 q
 
 
+---------------------------------->
+			dhcp host				
+-----------------------------------
 
 dhcp enable
 interface gig 0/0/1
-ip address 192.168.0.65 27
+ip address 10.10.11.1 24
 dhcp select interface
 q
 
+<----------------------------------
 
 ospf 1 router-id 3.3.3.3
 q
@@ -84,6 +92,48 @@ interface gig 0/0/0
 ip address 192.168.0.178 30
 isis enable 20
 q
+
+
+
+---------------------------------->
+			ospf + mpls				  
+-----------------------------------
+
+interface LoopBack1
+ip address 3.3.3.3 32 
+
+mpls lsr-id 3.3.3.3
+
+mpls
+
+interface gig 0/0/2
+ip address 10.10.12.6 30
+mpls
+q
+
+ospf 1 router-id 3.3.3.3
+import-route direct
+area 0
+network 3.3.3.3 0.0.0.0
+network 10.10.12.5 0.0.0.3
+q
+q
+
+<----------------------------------
+
+
+
+---------------------------------->
+				save
+-----------------------------------
+
+q
+save 
+y
+
+<----------------------------------
+
+
 
 
 
