@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="D4B39572-A31D-4508-B917-6DAD8ABDBB34" name="LSW2" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-61-03-5E" com_port="2001" bootmode="0" cx="699.000000" cy="330.000000" edit_left="726" edit_top="384">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="6C4ADD21-8DC2-4da8-BE16-225CD0738129" name="PC2-1" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-90-2D-85  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-90-2D-85" com_port="0" bootmode="0" cx="893.000000" cy="186.000000" edit_left="920" edit_top="240">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="93DFAC4F-636D-40ab-BFBD-B89C47ABA3FD" name="PC1-1" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-2D-02-4D  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-2D-02-4D" com_port="0" bootmode="0" cx="906.000000" cy="414.000000" edit_left="933" edit_top="468">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="F8EDA07A-CD0A-4675-87A2-D44425024853" name="PC2" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-7B-24-75  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-7B-24-75" com_port="0" bootmode="0" cx="223.000000" cy="204.000000" edit_left="250" edit_top="258">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="2BBE9B52-5010-42ef-8892-FFE364BD4E54" name="PC1" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-36-55-8E  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-36-55-8E" com_port="0" bootmode="0" cx="237.000000" cy="430.000000" edit_left="264" edit_top="484">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="8D3DF859-7200-49f3-B112-528F3D11EC86" name="LSW1" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-16-3E-12" com_port="2000" bootmode="0" cx="394.000000" cy="324.000000" edit_left="421" edit_top="378">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="F8EDA07A-CD0A-4675-87A2-D44425024853" destDeviceID="8D3DF859-7200-49f3-B112-528F3D11EC86">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="285.348358" srcBoundRect_Y="255.805862" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="385.651642" tarBoundRect_Y="326.194122" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="2BBE9B52-5010-42ef-8892-FFE364BD4E54" destDeviceID="8D3DF859-7200-49f3-B112-528F3D11EC86">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="299.790161" srcBoundRect_Y="432.835938" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="385.209839" tarBoundRect_Y="375.164063" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="8D3DF859-7200-49f3-B112-528F3D11EC86" destDeviceID="D4B39572-A31D-4508-B917-6DAD8ABDBB34">
+            <interfacePair lineName="Copper" srcIndex="9" srcBoundRectIsMoved="0" srcBoundRect_X="464.175415" srcBoundRect_Y="351.849365" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="9" tarBoundRectIsMoved="0" tarBoundRect_X="682.824585" tarBoundRect_Y="356.150635" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="10" srcBoundRectIsMoved="0" srcBoundRect_X="472.175415" srcBoundRect_Y="343.849365" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="10" tarBoundRectIsMoved="0" tarBoundRect_X="690.824585" tarBoundRect_Y="348.150635" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="11" srcBoundRectIsMoved="0" srcBoundRect_X="456.175415" srcBoundRect_Y="359.849365" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="11" tarBoundRectIsMoved="0" tarBoundRect_X="674.824585" tarBoundRect_Y="364.150635" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="93DFAC4F-636D-40ab-BFBD-B89C47ABA3FD" destDeviceID="D4B39572-A31D-4508-B917-6DAD8ABDBB34">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="892.985352" srcBoundRect_Y="424.762177" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="766.014648" tarBoundRect_Y="373.237823" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="6C4ADD21-8DC2-4da8-BE16-225CD0738129" destDeviceID="D4B39572-A31D-4508-B917-6DAD8ABDBB34">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="885.324707" srcBoundRect_Y="238.738358" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="760.675293" tarBoundRect_Y="331.261658" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="72" top="586" right="1277" bottom="912" content='L&apos;aggregazione di pi¨´ link in un&apos;eth trunk ¨¨ pi¨´ complessa di quanto sembra,&#x0D;&#x0A;di default alla creazione di un trunk questo funziona in manual mode, che dai&#x0D;&#x0A;comandi di display ¨¨ visualizzato come modalit¨¤ di lavoro &quot;NORMAL&quot;. l&apos;altra modalit¨¤&#x0D;&#x0A;di funzionamento ¨¨ LACP mode, automatica in base all&apos;elezione di un attore&#x0D;&#x0A;tra i due switch di un trunk e la priorit¨¤ delle porte, garantir¨¤ sia load &#x0D;&#x0A;balancing che ridondanza. Quest&apos;ultima ¨¨ attivabile con lacp mode static ed ¨¨ &#x0D;&#x0A;consigliabile attivare il transito delle bpdu con l&apos;enable. &#x0D;&#x0A;La modalit¨¤ di funzionamento del trunk v¨¤ impostata prima &#x0D;&#x0A;di aggiungere i link con l&apos;eth trunk. il numero di link attivi per un trunk&#x0D;&#x0A;in lacp mode e quali vengono decisi in base alla priorit¨¤ impostata &#x0D;&#x0A;ai relativi, che lacp considerer¨¤ solo se  ¨¨ attivata l&apos;impostazione &#x0D;&#x0A;preemptive, altrimenti la modalit¨¤ d&apos;uso lacp ¨¨ influenzata anche dai comandi&#x0D;&#x0A;che servono per la configurazione della modalit¨¤ manuale.&#x0D;&#x0A;per esempio in lacp posso impostare max active link number, ma per assicurarsi&#x0D;&#x0A;che i link effettivamente attivi rispettino le priorit¨¤ impostate bisogna&#x0D;&#x0A;attivare la preemptive mode. Altri comandi utili, che funzionano anche&#x0D;&#x0A;in lacp mode ma sono tipici dell&apos;impostazione manuale, sono least active link number&#x0D;&#x0A;e load balance basato su src e dst mac. &#x0D;&#x0A;&#x0D;&#x0A;to learn more, please visit:&#x0D;&#x0A;&#x0D;&#x0A;http://localhost:7890/newhdx.cgi?fe=2&amp;p=t&amp;lib=DEG1127X&amp;v=07&amp;id=adc%5ffd%5feth%2dtrunk%5f0007&amp;tocURL=resources%252fdc%252fdc%255ffd%255feth%252dtrunk%255f0007%252ehtml&amp;tocLib=DEG1127X&amp;tocV=07&amp;noteId=3&#x0D;&#x0A;&#x0D;&#x0A;http://localhost:7890/newhdx.cgi?fe=2&amp;p=t&amp;lib=DEG1127X&amp;v=07&amp;id=max%5factive%2dlinknumber%5f2&amp;tocURL=resources%252fdc%252fmax%255factive%252dlinknumber%252ehtml&amp;tocLib=DEG1127X&amp;tocV=07&amp;noteId=2&#x0D;&#x0A;&#x0D;&#x0A;http://localhost:7890/newhdx.cgi?fe=2&amp;p=t&amp;lib=AEG0221R&amp;v=10&amp;id=lacp%5fpriority&amp;tocURL=resources%252fdc%252flacp%255fpriority%252ehtml&amp;tocLib=AEG0221R&amp;tocV=10&amp;noteId=1' fontname="Consolas" fontstyle="0" editsize="80" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
